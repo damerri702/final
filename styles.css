@@ -1,4 +1,39 @@
 body {
     background: linear-gradient(0deg, rgb(143, 132, 134) 0%, rgb(90, 86, 90) 50%, rgb(64, 63, 64) 100%);
     height: 100vh;
-  }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    border-width: 1px 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display:inline-block;
+    padding: 10px;
+    color: white
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
