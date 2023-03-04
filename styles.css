@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(0deg, rgb(143, 132, 134) 0%, rgb(90, 86, 90) 50%, rgb(64, 63, 64) 100%);
+    background: linear-gradient(0deg, rgb(223, 210, 213) 0%, rgb(141, 137, 141) 50%, rgb(121, 116, 121) 100%);
     height: 100vh;
 }
 
@@ -9,11 +9,43 @@ ul {
     padding: 0;
     font-size: x-large;
     border-width: 1px 0;
-    text-align: center;
+    text-align: left;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 li {
     display: inline;
+}
+
+.suicide-nav {
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.morgue-nav {
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pouya-nav {
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.ghoste {
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
 }
 
 a {
