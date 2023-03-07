@@ -69,10 +69,44 @@ a:active {
     text-decoration: none;
 }
 
+.sblogo {
+    padding: 50px;
+}
+
 .album-card {
-    display: inline-grid;
+    display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 150px;
-    grid-column-gap: 300px;
+    justify-items: center;
+    align-items: center;
+    padding:  20px 50px 50px;
+}
+
+.album-card h5 {
+    text-align: center;
+    color: white;
+}
+
+.album-card h6 {
+    text-align: center;
+    color: white;
+}
+
+.album-image {
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    border: 10px solid white;
+}
+
+.sblogo {
+    border: 0;
+    border-color: none;
+}
+
+.album-info {
+    background-color: black;
+    opacity: 0.6;
 }
